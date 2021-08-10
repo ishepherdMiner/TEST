@@ -1,0 +1,26 @@
+{
+  "name": "TEST_dynamic_framework",
+  "version": "0.0.1",
+  "summary": "A short description of TEST_dynamic_framework.",
+  "description": "dfasffffffffffffffffffffffffffffffffffffffffffffff",
+  "homepage": "http://github.com/TEST_dynamic_framework",
+  "license": "MIT",
+  "authors": {
+    "Shepherd": "ijason92@yahoo.com"
+  },
+  "platforms": {
+    "osx": "10.12"
+  },
+  "source": {
+    "git": "https://ishephredminer.github.com/TEST_dynamic_framework.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "TEST_dynamic_framework/**/*.{h,m}",
+  "exclude_files": "Classes/Exclude",
+  "vendored_libraries": "TEST_dynamic_framework/**/*.a",
+  "static_framework": true,
+  "libraries": [
+    "iconv",
+    "xml2"
+  ]
+}

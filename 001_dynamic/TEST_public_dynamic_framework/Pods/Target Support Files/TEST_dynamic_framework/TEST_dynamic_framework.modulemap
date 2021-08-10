@@ -1,0 +1,6 @@
+framework module TEST_dynamic_framework {
+  umbrella header "TEST_dynamic_framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

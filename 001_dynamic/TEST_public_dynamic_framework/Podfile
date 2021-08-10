@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+platform :macos, '10.12'
+
+target 'TEST_public_dynamic_framework' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TEST_public_dynamic_framework
+  pod 'TEST_dynamic_framework', :path => '../TEST_dynamic_framework'
+end

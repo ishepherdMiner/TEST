@@ -1,0 +1,16 @@
+PODS:
+  - TEST_dynamic_framework (0.0.1)
+
+DEPENDENCIES:
+  - TEST_dynamic_framework (from `../TEST_dynamic_framework`)
+
+EXTERNAL SOURCES:
+  TEST_dynamic_framework:
+    :path: "../TEST_dynamic_framework"
+
+SPEC CHECKSUMS:
+  TEST_dynamic_framework: 94d0a7562307d22aa8be9691b8cb01cd24377c62
+
+PODFILE CHECKSUM: 0fd62562a30bd4d9540d9e1593f1f7d4ab793da1
+
+COCOAPODS: 1.8.3
